@@ -102,7 +102,7 @@ namespace xadrez_console.xadrez
                 {
                     mat[pos.linha, pos.coluna] = true;
                 }
-                // #Jogadaespecial en passant
+                // #Jogadaespecial en passant 
                 if (posicao.linha == 4)
                 {
                     Posicao esquerda = new Posicao(posicao.linha, posicao.coluna - 1);
